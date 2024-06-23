@@ -1,0 +1,9 @@
+###
+POST http://localhost:8080/api/notification/send
+Content-Type: application/json
+
+{
+  "notificationType": "news",
+  "user": "user 1",
+  "text": "notification text"
+}
